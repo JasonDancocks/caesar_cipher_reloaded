@@ -11,19 +11,16 @@ body {
 	outline: none;
 	width: 600;
 	height: 150;
-
 }
 
 .output {
 	color: blue;
-
 }
 
 #title:link,#title:visited {
 	color: #4a6488;
 	text-decoration: none;
 	font-size: 48px;
-
 }
 
 input[type=text]{
@@ -31,7 +28,6 @@ input[type=text]{
 	padding: 5px
 	border: 2px;
 	border-radius: 5px
-
 }
 
 input[type=submit] {

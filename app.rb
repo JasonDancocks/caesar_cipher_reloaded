@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require_relative 'caesar_cipher_reloaded'
+require './caesar_cipher_reloaded'
 
 get '/' do
 	if !params[:clear].nil?
