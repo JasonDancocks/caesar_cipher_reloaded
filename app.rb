@@ -15,7 +15,7 @@ get '/' do
 				shift = shift % 26
 			end
 	output = caesar_cipher(text,shift)
-heroku
+
 	erb :index, :locals => {
 		:output => output,
 		:text => params[:text],
